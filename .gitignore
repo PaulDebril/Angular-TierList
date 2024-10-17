@@ -1,0 +1,56 @@
+# Angular related
+/node_modules
+/dist
+/out-tsc
+/.angular
+/.angular-cache
+/coverage
+
+# Environment variables
+/src/environments/*.ts
+!src/environments/environment.prod.ts
+
+# IDEs and editors
+/.idea
+/.vscode
+/.project
+*.sublime-project
+*.sublime-workspace
+
+# Compiled TypeScript files
+*.js
+*.js.map
+
+# Compiled CSS and SCSS
+*.css
+*.css.map
+
+# Temporary files
+*.tmp
+*.log
+
+# Angular build artifacts
+/build
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Optional npm cache directory
+.npm
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OSX and Linux system files
+.DS_Store
+*.swp
+.sass-cache
+
+# Mac and Linux file system
+Thumbs.db
+
+# Windows
+desktop.ini
